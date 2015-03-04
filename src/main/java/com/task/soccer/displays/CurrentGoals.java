@@ -24,5 +24,4 @@ public class CurrentGoals implements Display {
 		logger.info("[CURRENT GOALS A - B] " + soccerData.getGoalsTeamA()
 				+ " - " + soccerData.getGoalsTeamB());
 	}
-
 }
