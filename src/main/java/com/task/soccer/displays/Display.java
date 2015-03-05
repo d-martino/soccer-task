@@ -4,8 +4,8 @@ import java.util.Observer;
 
 /**
  * A class can implement the Display interface when it wants
- * to be informed of changes in the soccer data observable object.
- * It extends {@link Observer} interface.
+ * to be informed of the changes in the soccer data observable object.
+ * It extends the {@link Observer} interface.
  * 
  * @author Daniela Martino 
  * @since 0.0.1

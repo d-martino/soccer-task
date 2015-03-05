@@ -18,12 +18,14 @@ public class GameRunner {
 		final SoccerData soccerData = new SoccerData(soccerGame);
 		soccerData.addDisplays(DisplayFactory.createAllDisplayTypes());
 
-		final Timer timer = new Timer(false);
+		// To simulate the passing of the game time. The period is a second 
+		// instead of a minute to have a faster simulation.  
+		final Timer timer = new Timer();
 		timer.schedule(new TimerTask() {
 
 			@Override
 			public void run() {
-				if (soccerGame.getCurrentMinute() <= 20) {
+				if (soccerGame.getCurrentMinute() <= 90) {
 					soccerGame.setCurrentMinute(soccerGame.getCurrentMinute() + 1);
 					soccerData.measurementsChanged();
 					if (goalProbability() > 90) {

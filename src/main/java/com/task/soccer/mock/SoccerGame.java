@@ -3,7 +3,7 @@ package com.task.soccer.mock;
 import java.util.List;
 
 /**
- * A class can implement the SoccerGame interface when it wants get and
+ * A class can implements the SoccerGame interface when it wants get and
  * provide a soccer game data. The data include goals and goals times scored by each team
  * and time elapsed.
  * 

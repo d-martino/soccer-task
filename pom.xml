@@ -8,6 +8,7 @@
 		<targetJdk>1.7</targetJdk>
 		<slf4jVersion>1.7.10</slf4jVersion>
 	</properties>
+	
 	<dependencies>
 	
 		<!-- LOGGING DEPENDECIES -->
